@@ -63,12 +63,20 @@
   position: relative;
   overflow: hidden;
 }
+ /* Card styling  */
 
 .btn {
  background: #624751;
  width: 50%;
  color: #FFFF;
 }
+
+.card {
+  border-radius: 10%
+}
+
+
+
 
 
 
