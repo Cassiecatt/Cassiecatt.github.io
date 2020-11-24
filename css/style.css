@@ -35,10 +35,15 @@
   padding: 5%;
 }
 
-.about-header, .portfolio-header, .experience-container {
+.about-header, .portfolio-header, .experience-header {
   padding-bottom: 30px;
   color: #D5D4D5;
   font-family: 'Ultra', serif;
+}
+
+/* H5s */
+.header {
+  font-weight: bold;
 }
 
 .portfolio-container {
@@ -70,6 +75,9 @@ div a:hover {
   opacity: 0.7;
 }
 
+ /* Experience section styling  */
 
-
+ .experience-content {
+  padding-bottom: 30px;
+ }
 
