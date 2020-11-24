@@ -46,6 +46,10 @@
   font-weight: bold;
 }
 
+/* .about-headers {
+  padding-bottom: 10px;
+} */
+
 .portfolio-container {
   background: #f5f5f5;
   margin-bottom: 0;
@@ -77,7 +81,12 @@ div a:hover {
 
  /* Experience section styling  */
 
- .experience-content {
+ .experience-content, .about-content {
   padding-bottom: 30px;
  }
 
+ .experience-content p, ul, .end {
+  padding-bottom: 40px;
+  border-bottom: 5px solid;
+  border-color: #f5f5f5;
+ }
