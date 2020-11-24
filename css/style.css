@@ -65,17 +65,9 @@
 }
  /* Card styling  */
 
-.btn {
- background: #624751;
- width: 50%;
- color: #FFFF;
-}
-
-/* .card {s
-  border-radius: 5%
-} */
-
-
+ .card {
+   border-radius: 2%;
+ }
 
 
 
