@@ -13,7 +13,19 @@
   margin-bottom: 0;
 }
 
-.about-container {
+.img-container {
+  text-align: center;
+}
+
+.img-circle {
+  width: 210px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-container, .experience-container {
   background: white;
   color: #624751;
   /* margin-bottom: removes white space between header and section */
@@ -23,7 +35,7 @@
   padding: 5%;
 }
 
-.about-header, .portfolio-header {
+.about-header, .portfolio-header, .experience-container {
   padding-bottom: 30px;
   color: #D5D4D5;
   font-family: 'Ultra', serif;
@@ -43,17 +55,6 @@
   text-align: center;
 }
 
-.img-container {
-  text-align: center;
-}
-
-.img-circle {
-  width: 210px;
-  height: 200px;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-}
  /* Card styling  */
  .card {
    border-radius: 2%;
