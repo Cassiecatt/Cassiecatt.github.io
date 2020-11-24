@@ -6,9 +6,6 @@
 }
 
 .jumbotron {
-  /* background: url('http://placekitten.com/800/500') no-repeat center center;
-    background-size: cover; */
-  /* background: linear-gradient(to bottom left, #006666 0%, #996633 100%); */
   background:#624751;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -26,24 +23,18 @@
   padding: 5%;
 }
 
+.about-header, .portfolio-header {
+  padding-bottom: 30px;
+  color: #D5D4D5;
+  font-family: 'Ultra', serif;
+}
+
 .portfolio-container {
   background: #f5f5f5;
   margin-bottom: 0;
   font-family: "Domine", serif;
   text-align: left;
   padding: 5%;
-}
-
-.about-header {
-  padding-bottom: 30px;
-  color: #D5D4D5;
-  font-family: 'Ultra', serif;
-}
-
-.portfolio-header {
-  padding-bottom: 30px;
-  font-family: 'Ultra', serif;
-  color: #D5D4D5;
 }
 
 .content-container {
@@ -64,10 +55,19 @@
   overflow: hidden;
 }
  /* Card styling  */
-
  .card {
    border-radius: 2%;
+   box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+   text-decoration: none;
  }
+
+ div a, a:hover {
+  text-decoration: none;
+}
+
+div a:hover {
+  opacity: 0.7;
+}
 
 
 
