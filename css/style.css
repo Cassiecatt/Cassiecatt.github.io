@@ -64,6 +64,10 @@
   text-align: center;
 }
 
+.content-container a {
+  color: inherit;
+}
+
  /* Card styling  */
  .card {
    border-radius: 2%;
